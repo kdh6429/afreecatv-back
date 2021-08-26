@@ -1,0 +1,8 @@
+version: "3"
+services:
+  echo:
+    image: afreeca-server-0821
+    ports:
+      - 8080:8080
+    mem_limit: 100m
+    cpus: ".25"
